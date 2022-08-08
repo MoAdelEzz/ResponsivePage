@@ -1,0 +1,64 @@
+@media (min-width: 768px) and (max-width: 1023px)
+{
+    .leftBar
+    {
+        width: 70%;
+        line-height: 75px;
+    }
+    
+
+    .rightBar
+    {
+        width: 30%;
+        margin-top: 5px;
+    }
+
+    .image-2
+    {
+        height: 80%;
+    }
+
+    .field-1
+    {
+        margin-bottom: 70px;
+    }
+
+    .content-3
+    {
+        width: 80%;
+        gap : 10px;
+    }
+    
+    .Images 
+    {
+        gap: 10px;
+    }
+
+
+    .container-4
+    {
+        gap: 8px;
+    }
+
+    #In1,#In2
+    {
+        width: 100%;
+    }
+
+    .inputField input
+    {
+        height: 30px;
+    }
+
+    .lastBtn
+    {
+        margin-bottom: 10px;
+    }
+
+    .map
+    {
+        width: 40%;
+        margin: auto;
+    }
+
+}

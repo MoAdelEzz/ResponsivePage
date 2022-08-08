@@ -1,0 +1,161 @@
+
+@media  (max-width: 767px)
+{
+    .leftBar
+    {
+        width: 60%;
+        justify-content: space-around;
+    }
+    .leftBar a
+    {
+        margin-top: 10px;
+        width: 30px;
+        height: 50%;
+        overflow: hidden;
+    }
+
+    .leftBar #one
+    {
+        background-image: url(../images/logo.jpg);
+        background-size: 100% 100%;
+    }
+
+    .leftBar #two
+    {
+        background-image: url(../images/home.png);
+        background-size: 100% 100%;
+    }
+
+    .leftBar #three
+    {
+        background-image: url(../images/aboutus.jpg);
+        background-size: 100% 100%;
+    }
+
+    .leftBar #four
+    {
+        background-image: url(../images/gallary.png);
+        background-size: 100% 100%;
+    }
+
+    .leftBar #five
+    {
+        background-image: url(../images/contact.png);
+        background-size: 100% 100%;
+    }
+
+    .leftBar #six
+    {
+        background-image: url(../images/footer.png);
+        background-size: 100% 100%;
+    }
+
+    .leftBar a h1, .leftBar a h3
+    {
+        font-size: 10px;
+        opacity: 0;
+    }
+
+    .rightBar
+    {
+        width: 38%;
+    }
+
+    .content-1
+    {
+        top: 80%;
+    }
+
+    .content-1 h1
+    {
+        font-size: 20px;
+    }
+
+    .content-1 p
+    {
+        font-size: 10px;
+    }
+
+    .content-2
+    {
+        position: relative;
+    }
+
+    .field-1
+    {
+        margin-bottom: 80px;
+    }
+
+    .field-1 h1
+    {
+        font-size: 20px;
+    }
+    
+    .field-1 p
+    {
+        font-size: 10px;
+    }
+
+    .image-2
+    {
+        position: relative;
+        top: 20%;
+
+        height: 50%;
+    }
+
+    .content-3
+    {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .content-3 h1
+    {
+        font-size: 15px;
+    }
+
+    .Images .image
+    {
+        width: 40%;
+        height: 140px;
+    }
+
+    .fill
+    {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .fill h1
+    {
+        font-size: 20px;
+    }
+
+    .container-4
+    {
+        gap: 8px;
+    }
+
+    #In1,#In2,#In5,#In6
+    {
+        width: 100%;
+    }
+
+    .inputField input
+    {
+        height: 30px;
+    }
+
+    .lastBtn
+    {
+        margin-bottom: 10px;
+    }
+
+    .map
+    {
+        width: 80%;
+        margin: auto;
+        height: 80px;
+    }
+}

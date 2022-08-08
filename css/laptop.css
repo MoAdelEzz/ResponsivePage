@@ -1,0 +1,20 @@
+@media (min-width: 1440px)
+{
+    .leftBar
+    {
+        line-height: 70px;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1339px)
+{
+    .leftBar
+    {
+        width: 60%;
+    }
+    .rightBar
+    {
+        width: 30%;
+    }
+}

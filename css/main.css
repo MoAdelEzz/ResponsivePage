@@ -1,0 +1,442 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    max-width: 100vw;
+}
+
+.Page
+ {
+    position: relative;
+
+    height: 100vh;
+    width: 100%;
+
+    margin-bottom: 10px;
+
+    background-color: black;
+}
+
+.Header
+{
+    width: 100%;
+    height: 18%;
+
+    text-align: center;
+}
+
+.Header h1
+{
+    font-size: 65px;
+    color : #D6CAB0;
+}
+
+.Header .lineOne
+{
+    width: 50%;
+    height: 3px;
+    background-color: #e8554e;
+    margin: auto;
+    border : 1px solid #e8554e;
+    border-radius: 50%;
+}
+
+.Header .lineTwo
+{
+    width: 30%;
+    border-bottom: 5px dashed  #e8554e;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.Header .lineThree
+{
+    width: 20%;
+    border-bottom: 5px dashed  #e8554e;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+.navBar 
+{
+    width: 100%;
+    height: 10%;
+
+    background-image: linear-gradient(to left, #282726, #54504C, #86817C);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* ===================================================================================*/
+
+.leftBar 
+{
+    width: 40%;
+    height: 100%;
+
+    line-height: 70px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.leftBar a 
+{
+    width: 20%;
+    height: 100%;
+
+    text-align: center;
+    text-decoration: none;
+    color: #fa9483;
+
+    transition: all 1s;
+}
+
+.leftBar a h1 
+{
+    font-size: 30px;
+    height: 100%;
+
+    color: #D6CAB0;
+
+    transition: all 1s;
+}
+
+/*------- Hover -----------*/
+
+.leftBar a:hover
+ {
+    background-color: #D6CAB0;
+}
+
+.leftBar a:hover h1 
+{
+    background-color: #fa9483;
+}
+
+/* ===================================================================================*/
+
+.rightBar
+ {
+    width: 20%;
+    height: 100%;
+
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Sign 
+{
+    width: 40%;
+    height: 80%;
+
+    margin-top: 5px;
+
+    border: 1px solid #fa9483;
+    border-radius: 20px;
+
+    background-color: transparent;
+    color: #fa9483;
+    border-color: #fa9483;
+
+    transition: all 1s;
+
+}
+
+.rightBar #two
+ {
+    color: #D6CAB0;
+    border-color: #D6CAB0;
+}
+
+/*------- Hover -----------*/
+.Sign:hover
+{
+    background-color: #fa9483;
+    color: black;
+    cursor: pointer;
+}
+
+#two:hover 
+{
+    background-color: #D6CAB0;
+    color: black;
+}
+
+/* ===================================================================================*/
+
+.content 
+{
+    width: 100%;
+    height: 90%;
+
+    color:#fa9483;
+    text-align: center;
+
+    background-image: url(../images/dark1.jpg);
+    background-size: 100% 100%;
+
+    animation: Changebg 20s linear 0s infinite;
+}
+
+@keyframes Changebg
+ {
+    30% 
+    {
+        background-image: url(../images/dark2.jpg);
+    }
+
+    60%
+    {
+        background-image: url(../images/dark3.jpg);
+    }
+
+    90%
+    {
+        background-image: url(../images/dark1.jpg);
+    }
+    
+}
+
+.content-1
+{
+    position: relative;
+    top: 70%;
+}
+
+.content-1 h1
+{
+    font-size: 50px;
+}
+
+.content-1 p
+{
+    font-size: 15px;
+}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+.content-2
+{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-2
+{
+    width: 30%;
+    height: 100%;
+}
+
+.text-2
+{
+    width: 50%;
+    height: 100%;
+    
+
+    text-align: center;
+    color: #e8554e;
+}
+
+.field-1
+{
+
+    margin-bottom: 120px;
+}
+
+.text-2 h1
+{
+    font-size: 40px;
+    color: #D6CAB0;
+}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+.content-3
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+
+    width: 60%;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.Tags
+{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+
+    border-bottom: 3px solid rgba(232,85,78,0.3);
+    padding-bottom: 20px;
+
+    color: #e8554e;
+
+}
+
+.Tags a
+{
+    color: #e8554e;
+    text-decoration: none;
+}
+
+.Images
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+
+    height: auto;
+    width: 100%;
+
+}
+
+.Images .image
+{
+    width: 30%;
+    height: 170px;
+
+    border: 2px solid #e8554e;
+    box-shadow: -10px 0px 5px #fa9483;
+
+    transition: all 1s;
+}
+
+.Images .image:hover
+{
+    opacity: 0.4;
+}
+
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+.content-4
+{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+    color: wheat;
+
+
+}
+
+.content-4 h1
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fill
+{
+    width: 50%;
+}
+
+.field-2
+{
+    text-align: center;
+}
+
+.field-2 input
+{
+    width: 90%;
+    height: 50px;
+    border: 2px solid #D6CAB0;
+    border-radius: 5px;
+    padding: 0px 10px ;
+}
+
+.field-3
+{
+    width: 100%;
+    text-align: center;
+}
+
+.field-3 input
+{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #D6CAB0;
+    border-radius: 5px;
+    padding: 0px 10px ;
+}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+.fill
+{
+    width: 50%;
+}
+
+
+.container-4
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.inputField
+{
+    width: 100%;
+    text-align: center;
+}
+
+.inputField input
+{
+    width: 90%;
+    margin: auto;
+    height: 50px;
+}
+
+#In1, #In2, #In5
+{
+    width: 45%;
+}
+
+#In6
+{
+    width: 40%;
+}
+
+
+.lastBtn
+{
+    width: 100%;
+     height: 50px; 
+     border: 2px solid blue;
+      border-radius: 5px;
+
+    color: white;
+    background-color: blue;
+}
+
+.lastBtn:hover
+{
+    background-color: rgba(0,0,255,0.7);
+}
