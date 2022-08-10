@@ -1,6 +1,13 @@
 
 @media  (max-width: 767px)
 {
+
+    .Header h1
+    {
+        font-size: 40px;
+    }
+
+
     .leftBar
     {
         width: 60%;
@@ -68,12 +75,12 @@
 
     .content-1 h1
     {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .content-1 p
     {
-        font-size: 10px;
+        font-size: 18px;
     }
 
     .content-2
@@ -83,17 +90,17 @@
 
     .field-1
     {
-        margin-bottom: 80px;
+        margin-bottom: 50px;
     }
 
     .field-1 h1
     {
-        font-size: 20px;
+        font-size: 30px;
     }
     
     .field-1 p
     {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .image-2
