@@ -434,9 +434,64 @@ body
 
     color: white;
     background-color: blue;
+
+    cursor: pointer;
 }
 
 .lastBtn:hover
 {
     background-color: rgba(0,0,255,0.7);
+}
+
+
+
+.foo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+    width: 100%;
+
+    background-color: black;
+    color: white;
+}
+
+.Content-61
+{
+    width: 40%;
+}
+
+.Content-61 h1 , .Content-62 h1 , .Content-63 h1
+{
+    margin-bottom: 5px;
+}
+
+.Content-62
+{
+    width: 20%;
+}
+
+.Content-62 ul , .Content-63 ul
+{
+    margin-left: 18px;
+}
+
+.Content-63
+{
+    width: 20%;;
+}
+
+.Content-63 ul li a
+{
+    text-decoration: none;
+    color : white;
+    transition: all 1s;
+}
+
+
+.Content-63 ul li a:hover
+{
+    text-decoration: underline;
 }

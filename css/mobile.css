@@ -165,4 +165,29 @@
         margin: auto;
         height: 80px;
     }
+
+    .foo
+    {
+        gap : 10px;
+        justify-content: flex-start;
+    }
+
+    .Content-61
+    {
+        width: 100%;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #D6CAB0;
+    }
+
+    .Content-62
+    {
+        width: 40%;
+        border-right: 2px solid #D6CAB0;
+    }
+    
+    .Content-63
+    {
+        width: 40%;
+    }
+
 }
