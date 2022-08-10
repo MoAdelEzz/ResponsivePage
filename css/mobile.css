@@ -90,7 +90,7 @@
 
     .field-1
     {
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
 
     .field-1 h1
@@ -190,4 +190,14 @@
         width: 40%;
     }
 
+
+    .foo h1
+    {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .foo p
+    {
+        font-size: 15px;
+    }
 }
